@@ -45,5 +45,52 @@
 	<false/>
 	<key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
+
+	<key>CFBundleURLTypes</key>
+      <array>
+      <dict>
+          <key>CFBundleURLSchemes</key>
+          <array>
+              <string>fb274162265479895</string>
+          </array>
+      </dict>
+      </array>
+
+      <key>LSApplicationQueriesSchemes</key>
+      <array>
+      <string>instagram</string>
+      <string>fb</string>
+      <string>fbauth2</string>
+      <string>fbshareextension</string>
+      <string>fbapi</string>
+      <string>facebook-reels</string>
+      <string>facebook-stories</string>
+      <string>fb-messenger-share-api</string>
+      <string>fb-messenger</string>
+      <string>tg</string>
+      <string>whatsapp</string>
+      <string>twitter</string>
+      </array>
+
+      <key>NSPhotoLibraryUsageDescription</key>
+      <string>$(PRODUCT_NAME) needs permission to access photos and videos on your device</string>
+      <key>NSMicrophoneUsageDescription</key>
+      <string>$(PRODUCT_NAME) does not require access to the microphone.</string>
+      <key>NSCameraUsageDescription</key>
+      <string>$(PRODUCT_NAME) requires access to the camera.</string>
+      <key>NSAppleMusicUsageDescription</key>
+      <string>$(PRODUCT_NAME) requires access to play music</string>
+
+      <key>FacebookAppID</key>
+      <string>274162265479895</string>
+      <key>FacebookClientToken</key>
+      <string>4596a0ede75d3c8f3ee4e0085bd4254f</string>
+      <key>FacebookDisplayName</key>
+      <string>[your_facebook_app_display_name]</string>
+
+      <key>NSBonjourServices</key>
+      <array>
+      <string>_dartobservatory._tcp</string>
+      </array>
 </dict>
 </plist>
